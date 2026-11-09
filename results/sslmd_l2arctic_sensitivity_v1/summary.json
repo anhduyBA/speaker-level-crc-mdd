@@ -1,0 +1,366 @@
+{
+  "source_protocol_sha256": "97309bf74675413a8dd0a1ca699bd11e511cca3548ce3a89a466274608b1d1fa",
+  "gate_reproduced_locked_thresholds": true,
+  "label": "sensitivity analyses; not pre-registered endpoints",
+  "S1_pooled_phone_threshold": {
+    "sslmd__pooled__0.05": {
+      "evaluations": 24,
+      "mean_fpr": 0.050705203934613564,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.10884184308841843,
+      "mean_recall": 0.17719006866932352,
+      "share_no_warning": 0.0
+    },
+    "sslmd__empirical__0.05": {
+      "evaluations": 24,
+      "mean_fpr": 0.05015826984773192,
+      "share_over_alpha": 0.4166666666666667,
+      "speakers_over_alpha": 10,
+      "max_fpr": 0.10734744707347448,
+      "mean_recall": 0.17664128267952317,
+      "share_no_warning": 0.0
+    },
+    "sslmd__crc__0.05": {
+      "evaluations": 24,
+      "mean_fpr": 0.008790142702928288,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.02092154420921544,
+      "mean_recall": 0.06016148572984111,
+      "share_no_warning": 0.0
+    },
+    "sslmd__pooled__0.10": {
+      "evaluations": 24,
+      "mean_fpr": 0.10067046950556817,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.1701120797011208,
+      "mean_recall": 0.26923146830699485,
+      "share_no_warning": 0.0
+    },
+    "sslmd__empirical__0.10": {
+      "evaluations": 24,
+      "mean_fpr": 0.10011705339088017,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.16961394769613947,
+      "mean_recall": 0.2680456030285457,
+      "share_no_warning": 0.0
+    },
+    "sslmd__crc__0.10": {
+      "evaluations": 24,
+      "mean_fpr": 0.06104699722476401,
+      "share_over_alpha": 0.041666666666666664,
+      "speakers_over_alpha": 1,
+      "max_fpr": 0.12552926525529265,
+      "mean_recall": 0.19604270728608084,
+      "share_no_warning": 0.0
+    },
+    "sslmd__pooled__0.15": {
+      "evaluations": 24,
+      "mean_fpr": 0.1506832454776691,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.2224159402241594,
+      "mean_recall": 0.3530094357957507,
+      "share_no_warning": 0.0
+    },
+    "sslmd__empirical__0.15": {
+      "evaluations": 24,
+      "mean_fpr": 0.14998024748553915,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.2219178082191781,
+      "mean_recall": 0.351937857266321,
+      "share_no_warning": 0.0
+    },
+    "sslmd__crc__0.15": {
+      "evaluations": 24,
+      "mean_fpr": 0.11301520845047643,
+      "share_over_alpha": 0.041666666666666664,
+      "speakers_over_alpha": 1,
+      "max_fpr": 0.18530510585305107,
+      "mean_recall": 0.29295958492906715,
+      "share_no_warning": 0.0
+    },
+    "gop__pooled__0.05": {
+      "evaluations": 24,
+      "mean_fpr": 0.050349946612725016,
+      "share_over_alpha": 0.5,
+      "speakers_over_alpha": 12,
+      "max_fpr": 0.06854531607006854,
+      "mean_recall": 0.19929035032962852,
+      "share_no_warning": 0.0
+    },
+    "gop__empirical__0.05": {
+      "evaluations": 24,
+      "mean_fpr": 0.05015433119293816,
+      "share_over_alpha": 0.5,
+      "speakers_over_alpha": 12,
+      "max_fpr": 0.06854531607006854,
+      "mean_recall": 0.19865029351429828,
+      "share_no_warning": 0.0
+    },
+    "gop__crc__0.05": {
+      "evaluations": 24,
+      "mean_fpr": 0.008689550099463638,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.013198416190057193,
+      "mean_recall": 0.036195633181188576,
+      "share_no_warning": 0.0
+    },
+    "gop__pooled__0.10": {
+      "evaluations": 24,
+      "mean_fpr": 0.10126550755424123,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.1772023356181772,
+      "mean_recall": 0.3287827365846868,
+      "share_no_warning": 0.0
+    },
+    "gop__empirical__0.10": {
+      "evaluations": 24,
+      "mean_fpr": 0.1004802229665126,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.1766945925361767,
+      "mean_recall": 0.32698678495397265,
+      "share_no_warning": 0.0
+    },
+    "gop__crc__0.10": {
+      "evaluations": 24,
+      "mean_fpr": 0.06102586447686515,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.0913937547600914,
+      "mean_recall": 0.23186629164305086,
+      "share_no_warning": 0.0
+    },
+    "gop__pooled__0.15": {
+      "evaluations": 24,
+      "mean_fpr": 0.15178857622803232,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.25107895404925107,
+      "mean_recall": 0.40846441173092013,
+      "share_no_warning": 0.0
+    },
+    "gop__empirical__0.15": {
+      "evaluations": 24,
+      "mean_fpr": 0.15040586365893618,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.25031733942625034,
+      "mean_recall": 0.4062652492960406,
+      "share_no_warning": 0.0
+    },
+    "gop__crc__0.15": {
+      "evaluations": 24,
+      "mean_fpr": 0.1132959174022387,
+      "share_over_alpha": 0.16666666666666666,
+      "speakers_over_alpha": 4,
+      "max_fpr": 0.19522721502919524,
+      "mean_recall": 0.3515503819187537,
+      "share_no_warning": 0.0
+    }
+  },
+  "S2_calibration_size_alpha_0.10": {
+    "sslmd__crc__n5": {
+      "evaluations": 1200,
+      "mean_fpr": 0.0,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.0,
+      "mean_recall": 0.0,
+      "share_no_warning": 1.0
+    },
+    "sslmd__empirical__n5": {
+      "evaluations": 1200,
+      "mean_fpr": 0.10067017534979214,
+      "share_over_alpha": 0.4725,
+      "speakers_over_alpha": 567,
+      "max_fpr": 0.18530510585305107,
+      "mean_recall": 0.2696565745719283,
+      "share_no_warning": 0.0
+    },
+    "gop__crc__n5": {
+      "evaluations": 1200,
+      "mean_fpr": 0.0,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.0,
+      "mean_recall": 0.0,
+      "share_no_warning": 1.0
+    },
+    "gop__empirical__n5": {
+      "evaluations": 1200,
+      "mean_fpr": 0.10145628701359755,
+      "share_over_alpha": 0.4175,
+      "speakers_over_alpha": 501,
+      "max_fpr": 0.20741304899720742,
+      "mean_recall": 0.3287842041645815,
+      "share_no_warning": 0.0
+    },
+    "sslmd__crc__n9": {
+      "evaluations": 1200,
+      "mean_fpr": 2.8858176894222466e-05,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.0009099181073703367,
+      "mean_recall": 0.0006776265702550448,
+      "share_no_warning": 0.0
+    },
+    "sslmd__empirical__n9": {
+      "evaluations": 1200,
+      "mean_fpr": 0.10034553916555627,
+      "share_over_alpha": 0.48833333333333334,
+      "speakers_over_alpha": 586,
+      "max_fpr": 0.17982565379825655,
+      "mean_recall": 0.269114895764413,
+      "share_no_warning": 0.0
+    },
+    "gop__crc__n9": {
+      "evaluations": 1200,
+      "mean_fpr": 3.3776779205637815e-05,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.0007221954742416948,
+      "mean_recall": 0.0006345895902168258,
+      "share_no_warning": 0.0
+    },
+    "gop__empirical__n9": {
+      "evaluations": 1200,
+      "mean_fpr": 0.10110321038883782,
+      "share_over_alpha": 0.4241666666666667,
+      "speakers_over_alpha": 509,
+      "max_fpr": 0.19954303122619954,
+      "mean_recall": 0.328752733599951,
+      "share_no_warning": 0.0
+    },
+    "sslmd__crc__n14": {
+      "evaluations": 1200,
+      "mean_fpr": 0.03591210305544376,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.08642590286425902,
+      "mean_recall": 0.14431570621082496,
+      "share_no_warning": 0.0
+    },
+    "sslmd__empirical__n14": {
+      "evaluations": 1200,
+      "mean_fpr": 0.10007074574455202,
+      "share_over_alpha": 0.4716666666666667,
+      "speakers_over_alpha": 566,
+      "max_fpr": 0.17858032378580324,
+      "mean_recall": 0.26831795730580354,
+      "share_no_warning": 0.0
+    },
+    "gop__crc__n14": {
+      "evaluations": 1200,
+      "mean_fpr": 0.03572571553539535,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.048743335872048744,
+      "mean_recall": 0.14368506906806364,
+      "share_no_warning": 0.0
+    },
+    "gop__empirical__n14": {
+      "evaluations": 1200,
+      "mean_fpr": 0.10040064485669196,
+      "share_over_alpha": 0.43083333333333335,
+      "speakers_over_alpha": 517,
+      "max_fpr": 0.18837268342218838,
+      "mean_recall": 0.32729758006770493,
+      "share_no_warning": 0.0
+    },
+    "sslmd__crc__n19": {
+      "evaluations": 1200,
+      "mean_fpr": 0.05286395638372007,
+      "share_over_alpha": 0.041666666666666664,
+      "speakers_over_alpha": 50,
+      "max_fpr": 0.11706102117061021,
+      "mean_recall": 0.18132146569508062,
+      "share_no_warning": 0.0
+    },
+    "sslmd__empirical__n19": {
+      "evaluations": 1200,
+      "mean_fpr": 0.10014947526220426,
+      "share_over_alpha": 0.4716666666666667,
+      "speakers_over_alpha": 566,
+      "max_fpr": 0.175093399750934,
+      "mean_recall": 0.26834853968199657,
+      "share_no_warning": 0.0
+    },
+    "gop__crc__n19": {
+      "evaluations": 1200,
+      "mean_fpr": 0.05270326070810176,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.07819243462807819,
+      "mean_recall": 0.20521505702831985,
+      "share_no_warning": 0.0
+    },
+    "gop__empirical__n19": {
+      "evaluations": 1200,
+      "mean_fpr": 0.10039263163724875,
+      "share_over_alpha": 0.42083333333333334,
+      "speakers_over_alpha": 505,
+      "max_fpr": 0.18354912414318356,
+      "mean_recall": 0.327327841737098,
+      "share_no_warning": 0.0
+    },
+    "sslmd__crc__n23": {
+      "evaluations": 24,
+      "mean_fpr": 0.06104699722476401,
+      "share_over_alpha": 0.041666666666666664,
+      "speakers_over_alpha": 1,
+      "max_fpr": 0.12552926525529265,
+      "mean_recall": 0.19604270728608084,
+      "share_no_warning": 0.0
+    },
+    "sslmd__empirical__n23": {
+      "evaluations": 24,
+      "mean_fpr": 0.10011705339088017,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.16961394769613947,
+      "mean_recall": 0.2680456030285457,
+      "share_no_warning": 0.0
+    },
+    "gop__crc__n23": {
+      "evaluations": 24,
+      "mean_fpr": 0.06102586447686515,
+      "share_over_alpha": 0.0,
+      "speakers_over_alpha": 0,
+      "max_fpr": 0.0913937547600914,
+      "mean_recall": 0.23186629164305086,
+      "share_no_warning": 0.0
+    },
+    "gop__empirical__n23": {
+      "evaluations": 24,
+      "mean_fpr": 0.1004802229665126,
+      "share_over_alpha": 0.4583333333333333,
+      "speakers_over_alpha": 11,
+      "max_fpr": 0.1766945925361767,
+      "mean_recall": 0.32698678495397265,
+      "share_no_warning": 0.0
+    }
+  },
+  "S3_sign_flip_permutation": {
+    "U1_sslmd_minus_gop": {
+      "mean": -0.035823584356970056,
+      "positive_speakers": 10,
+      "sign_flip_p": 0.1299821138381958,
+      "holm_p": 0.1299821138381958
+    },
+    "U2_sslmd_minus_prior": {
+      "mean": 0.07563328301965698,
+      "positive_speakers": 22,
+      "sign_flip_p": 4.875659942626953e-05,
+      "holm_p": 9.751319885253906e-05
+    }
+  },
+  "bootstrap_note": "locked bootstrap resamples held-out speakers with fixed LOSO thresholds (no recalibration)"
+}

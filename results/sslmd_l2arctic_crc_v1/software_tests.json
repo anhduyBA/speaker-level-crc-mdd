@@ -1,0 +1,29 @@
+{
+ "utc": "2026-11-08T15:41:14.130690+00:00",
+ "returncode": 0,
+ "tests": [
+  "test_f1_threshold_flags_best_prefix (tests.test_sslmd_l2arctic_crc_v1.L2ArcticTests.test_f1_threshold_flags_best_prefix) ... ok",
+  "test_gop_priority (tests.test_sslmd_l2arctic_crc_v1.L2ArcticTests.test_gop_priority) ... ok",
+  "test_loso_crc_keeps_each_speaker_once (tests.test_sslmd_l2arctic_crc_v1.L2ArcticTests.test_loso_crc_keeps_each_speaker_once) ... ok",
+  "test_phone_ids_match_head_order (tests.test_sslmd_l2arctic_crc_v1.L2ArcticTests.test_phone_ids_match_head_order) ... ok",
+  "test_positions_skip_silence_and_insertions (tests.test_sslmd_l2arctic_crc_v1.L2ArcticTests.test_positions_skip_silence_and_insertions) ... ok",
+  "test_prf (tests.test_sslmd_l2arctic_crc_v1.L2ArcticTests.test_prf) ... ok",
+  "test_unparsed_and_ax_exclude_utterance (tests.test_sslmd_l2arctic_crc_v1.L2ArcticTests.test_unparsed_and_ax_exclude_utterance) ... ok",
+  "test_crc_is_at_least_as_conservative_as_empirical (tests.test_sslmd_risk_epadb_v1.RiskEpadbTests.test_crc_is_at_least_as_conservative_as_empirical) ... ok",
+  "test_empirical_threshold_is_smallest_passing (tests.test_sslmd_risk_epadb_v1.RiskEpadbTests.test_empirical_threshold_is_smallest_passing) ... ok",
+  "test_label_mapping (tests.test_sslmd_risk_epadb_v1.RiskEpadbTests.test_label_mapping) ... ok",
+  "test_two_calibration_speakers_infeasible (tests.test_sslmd_risk_epadb_v1.RiskEpadbTests.test_two_calibration_speakers_infeasible) ... ok",
+  "test_bootstrap_p_extremes (tests.test_sslmd_convergence_v4.ConvergenceV4Tests.test_bootstrap_p_extremes) ... ok",
+  "test_empty_history_does_not_stop (tests.test_sslmd_convergence_v4.ConvergenceV4Tests.test_empty_history_does_not_stop) ... ok",
+  "test_holm_is_capped_at_one (tests.test_sslmd_convergence_v4.ConvergenceV4Tests.test_holm_is_capped_at_one) ... ok",
+  "test_holm_matches_hand_computation (tests.test_sslmd_convergence_v4.ConvergenceV4Tests.test_holm_matches_hand_computation) ... ok",
+  "test_stops_after_patience_without_strict_gain (tests.test_sslmd_convergence_v4.ConvergenceV4Tests.test_stops_after_patience_without_strict_gain) ... ok",
+  "test_strict_gain_resets_patience (tests.test_sslmd_convergence_v4.ConvergenceV4Tests.test_strict_gain_resets_patience) ... ok",
+  "test_capped_selection_ignores_later_epochs (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_capped_selection_ignores_later_epochs) ... ok",
+  "test_capped_selection_keeps_earliest_tie (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_capped_selection_keeps_earliest_tie) ... ok",
+  "test_mixed_at_zero_init_equals_uniform (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_mixed_at_zero_init_equals_uniform) ... ok",
+  "test_uniform_is_layer_mean_with_same_linear_init (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_uniform_is_layer_mean_with_same_linear_init) ... ok",
+  "test_uniform_rejects_wrong_layer_count (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_uniform_rejects_wrong_layer_count) ... ok",
+  "test_unknown_arm_rejected (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_unknown_arm_rejected) ... ok"
+ ]
+}

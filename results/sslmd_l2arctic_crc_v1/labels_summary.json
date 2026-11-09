@@ -1,0 +1,80 @@
+{
+  "utterances": 3588,
+  "speakers": 24,
+  "positions": 118767,
+  "errors": 17464,
+  "excluded_utterances": {
+    "unparsed_or_unscorable": 10,
+    "canonical_AX": 1
+  },
+  "insertions_not_scored": 1087,
+  "by_l1": {
+    "Arabic": {
+      "speakers": [
+        "ABA",
+        "SKA",
+        "YBAA",
+        "ZHAA"
+      ],
+      "utterances": 598,
+      "positions": 19728,
+      "errors": 1926
+    },
+    "Hindi": {
+      "speakers": [
+        "ASI",
+        "RRBI",
+        "SVBI",
+        "TNI"
+      ],
+      "utterances": 598,
+      "positions": 19683,
+      "errors": 2750
+    },
+    "Korean": {
+      "speakers": [
+        "HJK",
+        "HKK",
+        "YDCK",
+        "YKWK"
+      ],
+      "utterances": 598,
+      "positions": 19604,
+      "errors": 1846
+    },
+    "Mandarin": {
+      "speakers": [
+        "BWC",
+        "LXC",
+        "NCC",
+        "TXHC"
+      ],
+      "utterances": 596,
+      "positions": 19640,
+      "errors": 3019
+    },
+    "Spanish": {
+      "speakers": [
+        "EBVS",
+        "ERMS",
+        "MBMPS",
+        "NJS"
+      ],
+      "utterances": 598,
+      "positions": 19976,
+      "errors": 3202
+    },
+    "Vietnamese": {
+      "speakers": [
+        "HQTV",
+        "PNV",
+        "THV",
+        "TLV"
+      ],
+      "utterances": 600,
+      "positions": 20136,
+      "errors": 4721
+    }
+  },
+  "labels_sha256": "5961085c620ce34da37e86d4edf6941aaa6c9e823759b9195cf1fc0aa70ae28c"
+}

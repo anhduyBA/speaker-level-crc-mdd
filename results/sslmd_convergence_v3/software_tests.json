@@ -1,0 +1,23 @@
+{
+ "utc": "2026-11-08T10:02:48.077876+00:00",
+ "returncode": 0,
+ "tests": [
+  "test_capped_selection_ignores_later_epochs (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_capped_selection_ignores_later_epochs) ... ok",
+  "test_capped_selection_keeps_earliest_tie (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_capped_selection_keeps_earliest_tie) ... ok",
+  "test_mixed_at_zero_init_equals_uniform (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_mixed_at_zero_init_equals_uniform) ... ok",
+  "test_uniform_is_layer_mean_with_same_linear_init (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_uniform_is_layer_mean_with_same_linear_init) ... ok",
+  "test_uniform_rejects_wrong_layer_count (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_uniform_rejects_wrong_layer_count) ... ok",
+  "test_unknown_arm_rejected (tests.test_sslmd_convergence_v3.ConvergenceContractTests.test_unknown_arm_rejected) ... ok",
+  "test_QC_rejects_changed_alignment_even_with_tiny_error (tests.test_sslmd_training_v2.TrainingContractTests.test_QC_rejects_changed_alignment_even_with_tiny_error) ... ok",
+  "test_QC_tolerance_with_unchanged_alignment (tests.test_sslmd_training_v2.TrainingContractTests.test_QC_tolerance_with_unchanged_alignment) ... ok",
+  "test_counts_exclude_calibration_and_held (tests.test_sslmd_training_v2.TrainingContractTests.test_counts_exclude_calibration_and_held) ... ok",
+  "test_ensemble_rejects_missing_seed_position (tests.test_sslmd_training_v2.TrainingContractTests.test_ensemble_rejects_missing_seed_position) ... ok",
+  "test_equal_speaker_group_estimator (tests.test_sslmd_training_v2.TrainingContractTests.test_equal_speaker_group_estimator) ... ok",
+  "test_first_epoch_on_ties (tests.test_sslmd_training_v2.TrainingContractTests.test_first_epoch_on_ties) ... ok",
+  "test_held_labels_do_not_choose_threshold (tests.test_sslmd_training_v2.TrainingContractTests.test_held_labels_do_not_choose_threshold) ... ok",
+  "test_overlap_rejected (tests.test_sslmd_training_v2.TrainingContractTests.test_overlap_rejected) ... ok",
+  "test_threshold_exhaustive_against_all_possible_decisions (tests.test_sslmd_training_v2.TrainingContractTests.test_threshold_exhaustive_against_all_possible_decisions) ... ok",
+  "test_tiny_synthetic_optimizer_updates_only_head (tests.test_sslmd_training_v2.TrainingContractTests.test_tiny_synthetic_optimizer_updates_only_head) ... ok"
+ ],
+ "summary": "OK"
+}

@@ -1,0 +1,2489 @@
+{
+  "protocol_sha256": "3cced4638896aa078554fd09ba193a1f3dfc4ca52111b01357e31039119b1c22",
+  "metrics": {
+    "prior": {
+      "people": [
+        {
+          "speaker": "spkr14",
+          "n": 969,
+          "pauc": 0.701692368835956,
+          "auroc": 0.8653777003291567,
+          "ap": 0.7786322838217892,
+          "conditional_fpr": 0.0,
+          "recall": 0.0,
+          "precision": null,
+          "flags": 0
+        },
+        {
+          "speaker": "spkr17",
+          "n": 977,
+          "pauc": 0.547749720017858,
+          "auroc": 0.7814850151532159,
+          "ap": 0.3261588126246789,
+          "conditional_fpr": 0.015738498789346248,
+          "recall": 0.09933774834437085,
+          "precision": 0.5357142857142857,
+          "flags": 28
+        },
+        {
+          "speaker": "spkr25",
+          "n": 1014,
+          "pauc": 0.5497603533571711,
+          "auroc": 0.7127572323292574,
+          "ap": 0.10667027879213264,
+          "conditional_fpr": 0.0,
+          "recall": 0.0,
+          "precision": null,
+          "flags": 0
+        },
+        {
+          "speaker": "spkr29",
+          "n": 1009,
+          "pauc": 0.7310100419155477,
+          "auroc": 0.8896688166140616,
+          "ap": 0.7912342805680688,
+          "conditional_fpr": 0.0,
+          "recall": 0.01904761904761905,
+          "precision": 1.0,
+          "flags": 6
+        },
+        {
+          "speaker": "spkr30",
+          "n": 1002,
+          "pauc": 0.5710361838088387,
+          "auroc": 0.7404975699504222,
+          "ap": 0.29378511780186284,
+          "conditional_fpr": 0.018626309662398137,
+          "recall": 0.08391608391608392,
+          "precision": 0.42857142857142855,
+          "flags": 28
+        },
+        {
+          "speaker": "spkr31",
+          "n": 1021,
+          "pauc": 0.6799224366590977,
+          "auroc": 0.878100520359194,
+          "ap": 0.6429572302356709,
+          "conditional_fpr": 0.0,
+          "recall": 0.0,
+          "precision": null,
+          "flags": 0
+        },
+        {
+          "speaker": "spkr32",
+          "n": 1001,
+          "pauc": 0.6406598112009112,
+          "auroc": 0.8148501872659175,
+          "ap": 0.5386291333509444,
+          "conditional_fpr": 0.004993757802746567,
+          "recall": 0.01,
+          "precision": 0.3333333333333333,
+          "flags": 6
+        },
+        {
+          "speaker": "spkr52",
+          "n": 999,
+          "pauc": 0.5995678062684855,
+          "auroc": 0.7834265781784412,
+          "ap": 0.28047504719995386,
+          "conditional_fpr": 0.0,
+          "recall": 0.0,
+          "precision": null,
+          "flags": 0
+        },
+        {
+          "speaker": "spkr65",
+          "n": 1007,
+          "pauc": 0.5810860239014987,
+          "auroc": 0.7955825056865526,
+          "ap": 0.47816122279988504,
+          "conditional_fpr": 0.0,
+          "recall": 0.0,
+          "precision": null,
+          "flags": 0
+        },
+        {
+          "speaker": "spkr89",
+          "n": 1014,
+          "pauc": 0.6590567842518545,
+          "auroc": 0.8634608459045255,
+          "ap": 0.6702575723837426,
+          "conditional_fpr": 0.0,
+          "recall": 0.0,
+          "precision": null,
+          "flags": 0
+        }
+      ],
+      "means": {
+        "pauc": 0.6261541530217218,
+        "auroc": 0.8125206971770744,
+        "ap": 0.4906960979578729,
+        "conditional_fpr": 0.003935856625449095,
+        "recall": 0.02123014513080738,
+        "precision": 0.5744047619047619,
+        "flags": 6.8
+      },
+      "phones": {
+        "0": {
+          "good": 86,
+          "bad": 30,
+          "fp": 0,
+          "fn": 30,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "1": {
+          "good": 78,
+          "bad": 101,
+          "fp": 0,
+          "fn": 101,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "2": {
+          "good": 462,
+          "bad": 439,
+          "fp": 0,
+          "fn": 439,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "3": {
+          "good": 150,
+          "bad": 103,
+          "fp": 0,
+          "fn": 103,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "4": {
+          "good": 76,
+          "bad": 12,
+          "fp": 0,
+          "fn": 12,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "5": {
+          "good": 330,
+          "bad": 29,
+          "fp": 0,
+          "fn": 29,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "6": {
+          "good": 118,
+          "bad": 18,
+          "fp": 0,
+          "fn": 18,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "7": {
+          "good": 67,
+          "bad": 2,
+          "fp": 0,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "8": {
+          "good": 157,
+          "bad": 90,
+          "fp": 0,
+          "fn": 90,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "9": {
+          "good": 332,
+          "bad": 26,
+          "fp": 0,
+          "fn": 26,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "10": {
+          "good": 248,
+          "bad": 23,
+          "fp": 0,
+          "fn": 23,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "11": {
+          "good": 198,
+          "bad": 100,
+          "fp": 0,
+          "fn": 100,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "12": {
+          "good": 128,
+          "bad": 21,
+          "fp": 0,
+          "fn": 21,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "13": {
+          "good": 184,
+          "bad": 2,
+          "fp": 0,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "14": {
+          "good": 125,
+          "bad": 25,
+          "fp": 0,
+          "fn": 25,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "15": {
+          "good": 142,
+          "bad": 18,
+          "fp": 0,
+          "fn": 18,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "16": {
+          "good": 326,
+          "bad": 195,
+          "fp": 0,
+          "fn": 195,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "17": {
+          "good": 375,
+          "bad": 11,
+          "fp": 0,
+          "fn": 11,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "18": {
+          "good": 41,
+          "bad": 19,
+          "fp": 0,
+          "fn": 19,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "19": {
+          "good": 265,
+          "bad": 39,
+          "fp": 0,
+          "fn": 39,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "20": {
+          "good": 478,
+          "bad": 16,
+          "fp": 0,
+          "fn": 16,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "21": {
+          "good": 416,
+          "bad": 1,
+          "fp": 0,
+          "fn": 1,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "22": {
+          "good": 523,
+          "bad": 3,
+          "fp": 0,
+          "fn": 3,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "23": {
+          "good": 57,
+          "bad": 41,
+          "fp": 0,
+          "fn": 41,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "24": {
+          "good": 80,
+          "bad": 53,
+          "fp": 0,
+          "fn": 53,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "25": {
+          "good": 61,
+          "bad": 5,
+          "fp": 0,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "26": {
+          "good": 194,
+          "bad": 52,
+          "fp": 0,
+          "fn": 52,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "27": {
+          "good": 370,
+          "bad": 62,
+          "fp": 0,
+          "fn": 62,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "28": {
+          "good": 402,
+          "bad": 6,
+          "fp": 0,
+          "fn": 6,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "29": {
+          "good": 147,
+          "bad": 2,
+          "fp": 0,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "30": {
+          "good": 463,
+          "bad": 118,
+          "fp": 0,
+          "fn": 118,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "31": {
+          "good": 57,
+          "bad": 13,
+          "fp": 0,
+          "fn": 13,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "32": {
+          "good": 92,
+          "bad": 34,
+          "fp": 0,
+          "fn": 34,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "33": {
+          "good": 222,
+          "bad": 4,
+          "fp": 0,
+          "fn": 4,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "34": {
+          "good": 78,
+          "bad": 69,
+          "fp": 0,
+          "fn": 69,
+          "eligible": true,
+          "ActCost": 1.0
+        },
+        "35": {
+          "good": 185,
+          "bad": 2,
+          "fp": 0,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "36": {
+          "good": 159,
+          "bad": 18,
+          "fp": 0,
+          "fn": 18,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "37": {
+          "good": 78,
+          "bad": 203,
+          "fp": 29,
+          "fn": 176,
+          "eligible": true,
+          "ActCost": 1.6105848174813693
+        },
+        "38": {
+          "good": 30,
+          "bad": 28,
+          "fp": 4,
+          "fn": 20,
+          "eligible": false,
+          "ActCost": 0.980952380952381
+        }
+      },
+      "eligible_phones": 12,
+      "phone_macro_ActCost": 1.0508820681234474
+    },
+    "mixedConv": {
+      "people": [
+        {
+          "speaker": "spkr14",
+          "n": 969,
+          "pauc": 0.7494566222210577,
+          "auroc": 0.9088595690537438,
+          "ap": 0.8456089518639083,
+          "conditional_fpr": 0.09223300970873786,
+          "recall": 0.5669515669515669,
+          "precision": 0.77734375,
+          "flags": 256
+        },
+        {
+          "speaker": "spkr17",
+          "n": 977,
+          "pauc": 0.6916947211445383,
+          "auroc": 0.8707647162580378,
+          "ap": 0.5691944677551053,
+          "conditional_fpr": 0.12953995157384987,
+          "recall": 0.5231788079470199,
+          "precision": 0.42473118279569894,
+          "flags": 186
+        },
+        {
+          "speaker": "spkr25",
+          "n": 1014,
+          "pauc": 0.6616345142605993,
+          "auroc": 0.8490717268118104,
+          "ap": 0.2591563260509689,
+          "conditional_fpr": 0.10125260960334029,
+          "recall": 0.4642857142857143,
+          "precision": 0.21138211382113822,
+          "flags": 123
+        },
+        {
+          "speaker": "spkr29",
+          "n": 1009,
+          "pauc": 0.8041260692557523,
+          "auroc": 0.9253373587667536,
+          "ap": 0.8679391703601576,
+          "conditional_fpr": 0.05187319884726225,
+          "recall": 0.5333333333333333,
+          "precision": 0.8235294117647058,
+          "flags": 204
+        },
+        {
+          "speaker": "spkr30",
+          "n": 1002,
+          "pauc": 0.7019756176670582,
+          "auroc": 0.8651709175574136,
+          "ap": 0.5554943503091522,
+          "conditional_fpr": 0.1362048894062864,
+          "recall": 0.48951048951048953,
+          "precision": 0.37433155080213903,
+          "flags": 187
+        },
+        {
+          "speaker": "spkr31",
+          "n": 1021,
+          "pauc": 0.717277616983218,
+          "auroc": 0.9044191195477482,
+          "ap": 0.7010536940794286,
+          "conditional_fpr": 0.22431077694235588,
+          "recall": 0.5650224215246636,
+          "precision": 0.4131147540983607,
+          "flags": 305
+        },
+        {
+          "speaker": "spkr32",
+          "n": 1001,
+          "pauc": 0.7041757014258493,
+          "auroc": 0.889438202247191,
+          "ap": 0.6586300336257479,
+          "conditional_fpr": 0.0686641697877653,
+          "recall": 0.405,
+          "precision": 0.5955882352941176,
+          "flags": 136
+        },
+        {
+          "speaker": "spkr52",
+          "n": 999,
+          "pauc": 0.7347320258788719,
+          "auroc": 0.8993861695621644,
+          "ap": 0.5346127845741471,
+          "conditional_fpr": 0.06770255271920089,
+          "recall": 0.5408163265306123,
+          "precision": 0.4649122807017544,
+          "flags": 114
+        },
+        {
+          "speaker": "spkr65",
+          "n": 1007,
+          "pauc": 0.6779615412424718,
+          "auroc": 0.8692824809134518,
+          "ap": 0.6715886419761457,
+          "conditional_fpr": 0.20025673940949937,
+          "recall": 0.5350877192982456,
+          "precision": 0.43884892086330934,
+          "flags": 278
+        },
+        {
+          "speaker": "spkr89",
+          "n": 1014,
+          "pauc": 0.7754560062675195,
+          "auroc": 0.9179154495618423,
+          "ap": 0.8221062303205185,
+          "conditional_fpr": 0.1032171581769437,
+          "recall": 0.5708955223880597,
+          "precision": 0.6652173913043479,
+          "flags": 230
+        }
+      ],
+      "means": {
+        "pauc": 0.7218490436346936,
+        "auroc": 0.8899645710280157,
+        "ap": 0.648538465091528,
+        "conditional_fpr": 0.11752550561752417,
+        "recall": 0.5194081901769706,
+        "precision": 0.5188999591445572,
+        "flags": 201.9
+      },
+      "phones": {
+        "0": {
+          "good": 86,
+          "bad": 30,
+          "fp": 13,
+          "fn": 12,
+          "eligible": false,
+          "ActCost": 0.7023255813953488
+        },
+        "1": {
+          "good": 78,
+          "bad": 101,
+          "fp": 12,
+          "fn": 41,
+          "eligible": true,
+          "ActCost": 0.7136329017517137
+        },
+        "2": {
+          "good": 462,
+          "bad": 439,
+          "fp": 52,
+          "fn": 260,
+          "eligible": true,
+          "ActCost": 0.8173633503929632
+        },
+        "3": {
+          "good": 150,
+          "bad": 103,
+          "fp": 20,
+          "fn": 69,
+          "eligible": true,
+          "ActCost": 0.936569579288026
+        },
+        "4": {
+          "good": 76,
+          "bad": 12,
+          "fp": 7,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 0.6008771929824561
+        },
+        "5": {
+          "good": 330,
+          "bad": 29,
+          "fp": 32,
+          "fn": 7,
+          "eligible": false,
+          "ActCost": 0.43531870428422154
+        },
+        "6": {
+          "good": 118,
+          "bad": 18,
+          "fp": 15,
+          "fn": 13,
+          "eligible": false,
+          "ActCost": 0.9764595103578154
+        },
+        "7": {
+          "good": 67,
+          "bad": 2,
+          "fp": 8,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.2388059701492538
+        },
+        "8": {
+          "good": 157,
+          "bad": 90,
+          "fp": 18,
+          "fn": 58,
+          "eligible": true,
+          "ActCost": 0.8737438075017694
+        },
+        "9": {
+          "good": 332,
+          "bad": 26,
+          "fp": 81,
+          "fn": 8,
+          "eligible": false,
+          "ActCost": 0.7956441149212234
+        },
+        "10": {
+          "good": 248,
+          "bad": 23,
+          "fp": 28,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 0.6171107994389902
+        },
+        "11": {
+          "good": 198,
+          "bad": 100,
+          "fp": 45,
+          "fn": 31,
+          "eligible": true,
+          "ActCost": 0.7645454545454545
+        },
+        "12": {
+          "good": 128,
+          "bad": 21,
+          "fp": 14,
+          "fn": 3,
+          "eligible": false,
+          "ActCost": 0.36160714285714285
+        },
+        "13": {
+          "good": 184,
+          "bad": 2,
+          "fp": 15,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.1630434782608696
+        },
+        "14": {
+          "good": 125,
+          "bad": 25,
+          "fp": 15,
+          "fn": 12,
+          "eligible": false,
+          "ActCost": 0.72
+        },
+        "15": {
+          "good": 142,
+          "bad": 18,
+          "fp": 22,
+          "fn": 15,
+          "eligible": false,
+          "ActCost": 1.1431924882629108
+        },
+        "16": {
+          "good": 326,
+          "bad": 195,
+          "fp": 53,
+          "fn": 56,
+          "eligible": true,
+          "ActCost": 0.612332861412616
+        },
+        "17": {
+          "good": 375,
+          "bad": 11,
+          "fp": 19,
+          "fn": 10,
+          "eligible": false,
+          "ActCost": 1.0104242424242424
+        },
+        "18": {
+          "good": 41,
+          "bad": 19,
+          "fp": 9,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.5442875481386393
+        },
+        "19": {
+          "good": 265,
+          "bad": 39,
+          "fp": 43,
+          "fn": 23,
+          "eligible": false,
+          "ActCost": 0.9142718916303822
+        },
+        "20": {
+          "good": 478,
+          "bad": 16,
+          "fp": 22,
+          "fn": 11,
+          "eligible": false,
+          "ActCost": 0.7795502092050209
+        },
+        "21": {
+          "good": 416,
+          "bad": 1,
+          "fp": 36,
+          "fn": 1,
+          "eligible": false,
+          "ActCost": 1.1730769230769231
+        },
+        "22": {
+          "good": 523,
+          "bad": 3,
+          "fp": 47,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.8463989802421925
+        },
+        "23": {
+          "good": 57,
+          "bad": 41,
+          "fp": 4,
+          "fn": 14,
+          "eligible": false,
+          "ActCost": 0.4818142918271288
+        },
+        "24": {
+          "good": 80,
+          "bad": 53,
+          "fp": 13,
+          "fn": 20,
+          "eligible": true,
+          "ActCost": 0.7023584905660378
+        },
+        "25": {
+          "good": 61,
+          "bad": 5,
+          "fp": 8,
+          "fn": 3,
+          "eligible": false,
+          "ActCost": 0.862295081967213
+        },
+        "26": {
+          "good": 194,
+          "bad": 52,
+          "fp": 12,
+          "fn": 25,
+          "eligible": true,
+          "ActCost": 0.6044805709754164
+        },
+        "27": {
+          "good": 370,
+          "bad": 62,
+          "fp": 50,
+          "fn": 31,
+          "eligible": true,
+          "ActCost": 0.7702702702702703
+        },
+        "28": {
+          "good": 402,
+          "bad": 6,
+          "fp": 39,
+          "fn": 4,
+          "eligible": false,
+          "ActCost": 0.8606965174129353
+        },
+        "29": {
+          "good": 147,
+          "bad": 2,
+          "fp": 0,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "30": {
+          "good": 463,
+          "bad": 118,
+          "fp": 84,
+          "fn": 74,
+          "eligible": true,
+          "ActCost": 0.9899696159900429
+        },
+        "31": {
+          "good": 57,
+          "bad": 13,
+          "fp": 9,
+          "fn": 7,
+          "eligible": false,
+          "ActCost": 0.854251012145749
+        },
+        "32": {
+          "good": 92,
+          "bad": 34,
+          "fp": 10,
+          "fn": 14,
+          "eligible": false,
+          "ActCost": 0.629156010230179
+        },
+        "33": {
+          "good": 222,
+          "bad": 4,
+          "fp": 11,
+          "fn": 3,
+          "eligible": false,
+          "ActCost": 0.8490990990990991
+        },
+        "34": {
+          "good": 78,
+          "bad": 69,
+          "fp": 16,
+          "fn": 30,
+          "eligible": true,
+          "ActCost": 0.8450390189520625
+        },
+        "35": {
+          "good": 185,
+          "bad": 2,
+          "fp": 1,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0108108108108107
+        },
+        "36": {
+          "good": 159,
+          "bad": 18,
+          "fp": 5,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 0.5628930817610063
+        },
+        "37": {
+          "good": 78,
+          "bad": 203,
+          "fp": 44,
+          "fn": 56,
+          "eligible": true,
+          "ActCost": 1.4040671971706455
+        },
+        "38": {
+          "good": 30,
+          "bad": 28,
+          "fp": 10,
+          "fn": 10,
+          "eligible": false,
+          "ActCost": 1.0238095238095237
+        }
+      },
+      "eligible_phones": 12,
+      "phone_macro_ActCost": 0.8361977599014182
+    },
+    "mixed60": {
+      "people": [
+        {
+          "speaker": "spkr14",
+          "n": 969,
+          "pauc": 0.7433907840993517,
+          "auroc": 0.9128703012198158,
+          "ap": 0.848370549580113,
+          "conditional_fpr": 0.09223300970873786,
+          "recall": 0.5641025641025641,
+          "precision": 0.7764705882352941,
+          "flags": 255
+        },
+        {
+          "speaker": "spkr17",
+          "n": 977,
+          "pauc": 0.672005246025604,
+          "auroc": 0.8616727867485529,
+          "ap": 0.5354131484880236,
+          "conditional_fpr": 0.13922518159806296,
+          "recall": 0.4900662251655629,
+          "precision": 0.3915343915343915,
+          "flags": 189
+        },
+        {
+          "speaker": "spkr25",
+          "n": 1014,
+          "pauc": 0.6349694696030264,
+          "auroc": 0.8368065911124365,
+          "ap": 0.2153284813443702,
+          "conditional_fpr": 0.06263048016701461,
+          "recall": 0.4107142857142857,
+          "precision": 0.27710843373493976,
+          "flags": 83
+        },
+        {
+          "speaker": "spkr29",
+          "n": 1009,
+          "pauc": 0.7902200265312658,
+          "auroc": 0.9273637985453548,
+          "ap": 0.8577009649183803,
+          "conditional_fpr": 0.06340057636887608,
+          "recall": 0.5206349206349207,
+          "precision": 0.7884615384615384,
+          "flags": 208
+        },
+        {
+          "speaker": "spkr30",
+          "n": 1002,
+          "pauc": 0.670903203774964,
+          "auroc": 0.8574940775173604,
+          "ap": 0.5199351567288784,
+          "conditional_fpr": 0.1420256111757858,
+          "recall": 0.4965034965034965,
+          "precision": 0.36787564766839376,
+          "flags": 193
+        },
+        {
+          "speaker": "spkr31",
+          "n": 1021,
+          "pauc": 0.7146453577890917,
+          "auroc": 0.9037391685491757,
+          "ap": 0.7047194818300155,
+          "conditional_fpr": 0.2581453634085213,
+          "recall": 0.5739910313901345,
+          "precision": 0.38323353293413176,
+          "flags": 334
+        },
+        {
+          "speaker": "spkr32",
+          "n": 1001,
+          "pauc": 0.698133911557921,
+          "auroc": 0.8827153558052434,
+          "ap": 0.659134861663435,
+          "conditional_fpr": 0.09737827715355805,
+          "recall": 0.405,
+          "precision": 0.5094339622641509,
+          "flags": 159
+        },
+        {
+          "speaker": "spkr52",
+          "n": 999,
+          "pauc": 0.7319364687285044,
+          "auroc": 0.8896577498924099,
+          "ap": 0.5037794217120902,
+          "conditional_fpr": 0.04661487236403995,
+          "recall": 0.41836734693877553,
+          "precision": 0.4939759036144578,
+          "flags": 83
+        },
+        {
+          "speaker": "spkr65",
+          "n": 1007,
+          "pauc": 0.6719045773341535,
+          "auroc": 0.8676328176024142,
+          "ap": 0.6599506577975187,
+          "conditional_fpr": 0.21309370988446727,
+          "recall": 0.5307017543859649,
+          "precision": 0.42160278745644597,
+          "flags": 287
+        },
+        {
+          "speaker": "spkr89",
+          "n": 1014,
+          "pauc": 0.7734500209549122,
+          "auroc": 0.9188707934856549,
+          "ap": 0.8212449397961832,
+          "conditional_fpr": 0.09651474530831099,
+          "recall": 0.5261194029850746,
+          "precision": 0.6619718309859155,
+          "flags": 213
+        }
+      ],
+      "means": {
+        "pauc": 0.7101559066398794,
+        "auroc": 0.8858823440478417,
+        "ap": 0.6325577663859009,
+        "conditional_fpr": 0.1211261827137375,
+        "recall": 0.4936201027820779,
+        "precision": 0.507166861688966,
+        "flags": 200.4
+      },
+      "phones": {
+        "0": {
+          "good": 86,
+          "bad": 30,
+          "fp": 14,
+          "fn": 13,
+          "eligible": false,
+          "ActCost": 0.7589147286821706
+        },
+        "1": {
+          "good": 78,
+          "bad": 101,
+          "fp": 9,
+          "fn": 44,
+          "eligible": true,
+          "ActCost": 0.6664127951256664
+        },
+        "2": {
+          "good": 462,
+          "bad": 439,
+          "fp": 67,
+          "fn": 257,
+          "eligible": true,
+          "ActCost": 0.8754647023439734
+        },
+        "3": {
+          "good": 150,
+          "bad": 103,
+          "fp": 32,
+          "fn": 68,
+          "eligible": true,
+          "ActCost": 1.0868608414239482
+        },
+        "4": {
+          "good": 76,
+          "bad": 12,
+          "fp": 7,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 0.6008771929824561
+        },
+        "5": {
+          "good": 330,
+          "bad": 29,
+          "fp": 29,
+          "fn": 6,
+          "eligible": false,
+          "ActCost": 0.3826541274817137
+        },
+        "6": {
+          "good": 118,
+          "bad": 18,
+          "fp": 26,
+          "fn": 12,
+          "eligible": false,
+          "ActCost": 1.1073446327683616
+        },
+        "7": {
+          "good": 67,
+          "bad": 2,
+          "fp": 7,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.208955223880597
+        },
+        "8": {
+          "good": 157,
+          "bad": 90,
+          "fp": 17,
+          "fn": 61,
+          "eligible": true,
+          "ActCost": 0.8943382873319179
+        },
+        "9": {
+          "good": 332,
+          "bad": 26,
+          "fp": 85,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 0.8582020389249305
+        },
+        "10": {
+          "good": 248,
+          "bad": 23,
+          "fp": 42,
+          "fn": 10,
+          "eligible": false,
+          "ActCost": 0.773492286115007
+        },
+        "11": {
+          "good": 198,
+          "bad": 100,
+          "fp": 39,
+          "fn": 37,
+          "eligible": true,
+          "ActCost": 0.7639393939393939
+        },
+        "12": {
+          "good": 128,
+          "bad": 21,
+          "fp": 15,
+          "fn": 3,
+          "eligible": false,
+          "ActCost": 0.37723214285714285
+        },
+        "13": {
+          "good": 184,
+          "bad": 2,
+          "fp": 15,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.1630434782608696
+        },
+        "14": {
+          "good": 125,
+          "bad": 25,
+          "fp": 12,
+          "fn": 11,
+          "eligible": false,
+          "ActCost": 0.632
+        },
+        "15": {
+          "good": 142,
+          "bad": 18,
+          "fp": 16,
+          "fn": 16,
+          "eligible": false,
+          "ActCost": 1.114241001564945
+        },
+        "16": {
+          "good": 326,
+          "bad": 195,
+          "fp": 44,
+          "fn": 77,
+          "eligible": true,
+          "ActCost": 0.6648104451785433
+        },
+        "17": {
+          "good": 375,
+          "bad": 11,
+          "fp": 35,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 1.0048484848484849
+        },
+        "18": {
+          "good": 41,
+          "bad": 19,
+          "fp": 10,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.5930680359435173
+        },
+        "19": {
+          "good": 265,
+          "bad": 39,
+          "fp": 39,
+          "fn": 21,
+          "eligible": false,
+          "ActCost": 0.8328011611030479
+        },
+        "20": {
+          "good": 478,
+          "bad": 16,
+          "fp": 20,
+          "fn": 12,
+          "eligible": false,
+          "ActCost": 0.8336820083682008
+        },
+        "21": {
+          "good": 416,
+          "bad": 1,
+          "fp": 35,
+          "fn": 1,
+          "eligible": false,
+          "ActCost": 1.1682692307692308
+        },
+        "22": {
+          "good": 523,
+          "bad": 3,
+          "fp": 45,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.8387507966857871
+        },
+        "23": {
+          "good": 57,
+          "bad": 41,
+          "fp": 10,
+          "fn": 12,
+          "eligible": false,
+          "ActCost": 0.6435601198117245
+        },
+        "24": {
+          "good": 80,
+          "bad": 53,
+          "fp": 18,
+          "fn": 18,
+          "eligible": true,
+          "ActCost": 0.789622641509434
+        },
+        "25": {
+          "good": 61,
+          "bad": 5,
+          "fp": 9,
+          "fn": 4,
+          "eligible": false,
+          "ActCost": 1.095081967213115
+        },
+        "26": {
+          "good": 194,
+          "bad": 52,
+          "fp": 15,
+          "fn": 25,
+          "eligible": true,
+          "ActCost": 0.6354084060269627
+        },
+        "27": {
+          "good": 370,
+          "bad": 62,
+          "fp": 51,
+          "fn": 29,
+          "eligible": true,
+          "ActCost": 0.7434176111595466
+        },
+        "28": {
+          "good": 402,
+          "bad": 6,
+          "fp": 31,
+          "fn": 6,
+          "eligible": false,
+          "ActCost": 1.154228855721393
+        },
+        "29": {
+          "good": 147,
+          "bad": 2,
+          "fp": 0,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "30": {
+          "good": 463,
+          "bad": 118,
+          "fp": 43,
+          "fn": 86,
+          "eligible": true,
+          "ActCost": 0.9145586997108027
+        },
+        "31": {
+          "good": 57,
+          "bad": 13,
+          "fp": 10,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 0.7354925775978407
+        },
+        "32": {
+          "good": 92,
+          "bad": 34,
+          "fp": 11,
+          "fn": 12,
+          "eligible": false,
+          "ActCost": 0.592071611253197
+        },
+        "33": {
+          "good": 222,
+          "bad": 4,
+          "fp": 11,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.5990990990990991
+        },
+        "34": {
+          "good": 78,
+          "bad": 69,
+          "fp": 13,
+          "fn": 33,
+          "eligible": true,
+          "ActCost": 0.8115942028985508
+        },
+        "35": {
+          "good": 185,
+          "bad": 2,
+          "fp": 3,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0324324324324325
+        },
+        "36": {
+          "good": 159,
+          "bad": 18,
+          "fp": 16,
+          "fn": 6,
+          "eligible": false,
+          "ActCost": 0.5345911949685535
+        },
+        "37": {
+          "good": 78,
+          "bad": 203,
+          "fp": 51,
+          "fn": 60,
+          "eligible": true,
+          "ActCost": 1.603258810155362
+        },
+        "38": {
+          "good": 30,
+          "bad": 28,
+          "fp": 10,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 0.9880952380952381
+        }
+      },
+      "eligible_phones": 12,
+      "phone_macro_ActCost": 0.8708072364003417
+    },
+    "uniformConv": {
+      "people": [
+        {
+          "speaker": "spkr14",
+          "n": 969,
+          "pauc": 0.7325013915032651,
+          "auroc": 0.9043786131164772,
+          "ap": 0.8328516863658446,
+          "conditional_fpr": 0.08414239482200647,
+          "recall": 0.5754985754985755,
+          "precision": 0.7952755905511811,
+          "flags": 254
+        },
+        {
+          "speaker": "spkr17",
+          "n": 977,
+          "pauc": 0.6800059414446994,
+          "auroc": 0.8643105687667367,
+          "ap": 0.5500452990144344,
+          "conditional_fpr": 0.15254237288135594,
+          "recall": 0.5165562913907285,
+          "precision": 0.38235294117647056,
+          "flags": 204
+        },
+        {
+          "speaker": "spkr25",
+          "n": 1014,
+          "pauc": 0.6528442714301411,
+          "auroc": 0.8486243662391888,
+          "ap": 0.24223848042508636,
+          "conditional_fpr": 0.08559498956158663,
+          "recall": 0.4642857142857143,
+          "precision": 0.24074074074074073,
+          "flags": 108
+        },
+        {
+          "speaker": "spkr29",
+          "n": 1009,
+          "pauc": 0.7996094944373422,
+          "auroc": 0.9240062211243767,
+          "ap": 0.8635173311740456,
+          "conditional_fpr": 0.06628242074927954,
+          "recall": 0.5047619047619047,
+          "precision": 0.775609756097561,
+          "flags": 205
+        },
+        {
+          "speaker": "spkr30",
+          "n": 1002,
+          "pauc": 0.6944988716326257,
+          "auroc": 0.8677678549622669,
+          "ap": 0.5556470463372475,
+          "conditional_fpr": 0.1350407450523865,
+          "recall": 0.46153846153846156,
+          "precision": 0.3626373626373626,
+          "flags": 182
+        },
+        {
+          "speaker": "spkr31",
+          "n": 1021,
+          "pauc": 0.7106880962141015,
+          "auroc": 0.9037223102599548,
+          "ap": 0.6974206252009114,
+          "conditional_fpr": 0.23809523809523808,
+          "recall": 0.5650224215246636,
+          "precision": 0.3987341772151899,
+          "flags": 316
+        },
+        {
+          "speaker": "spkr32",
+          "n": 1001,
+          "pauc": 0.7051021749129378,
+          "auroc": 0.8851810237203496,
+          "ap": 0.6558998981857775,
+          "conditional_fpr": 0.08114856429463171,
+          "recall": 0.445,
+          "precision": 0.577922077922078,
+          "flags": 154
+        },
+        {
+          "speaker": "spkr52",
+          "n": 999,
+          "pauc": 0.7325981037896787,
+          "auroc": 0.898650026048155,
+          "ap": 0.5349967289451732,
+          "conditional_fpr": 0.05438401775804662,
+          "recall": 0.45918367346938777,
+          "precision": 0.4787234042553192,
+          "flags": 94
+        },
+        {
+          "speaker": "spkr65",
+          "n": 1007,
+          "pauc": 0.6819145695466285,
+          "auroc": 0.8712924802378218,
+          "ap": 0.6747356243828531,
+          "conditional_fpr": 0.20154043645699615,
+          "recall": 0.543859649122807,
+          "precision": 0.4412811387900356,
+          "flags": 281
+        },
+        {
+          "speaker": "spkr89",
+          "n": 1014,
+          "pauc": 0.771212373296492,
+          "auroc": 0.9182405666039773,
+          "ap": 0.820229704657686,
+          "conditional_fpr": 0.08176943699731903,
+          "recall": 0.5522388059701493,
+          "precision": 0.7081339712918661,
+          "flags": 209
+        }
+      ],
+      "means": {
+        "pauc": 0.7160975288207911,
+        "auroc": 0.8886174031079305,
+        "ap": 0.642758242468906,
+        "conditional_fpr": 0.11805406166688466,
+        "recall": 0.5087945497562393,
+        "precision": 0.5161411160677803,
+        "flags": 200.7
+      },
+      "phones": {
+        "0": {
+          "good": 86,
+          "bad": 30,
+          "fp": 11,
+          "fn": 13,
+          "eligible": false,
+          "ActCost": 0.6891472868217055
+        },
+        "1": {
+          "good": 78,
+          "bad": 101,
+          "fp": 9,
+          "fn": 32,
+          "eligible": true,
+          "ActCost": 0.5476009139375476
+        },
+        "2": {
+          "good": 462,
+          "bad": 439,
+          "fp": 43,
+          "fn": 287,
+          "eligible": true,
+          "ActCost": 0.8399057282884163
+        },
+        "3": {
+          "good": 150,
+          "bad": 103,
+          "fp": 36,
+          "fn": 55,
+          "eligible": true,
+          "ActCost": 1.0139805825242718
+        },
+        "4": {
+          "good": 76,
+          "bad": 12,
+          "fp": 7,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 0.6008771929824561
+        },
+        "5": {
+          "good": 330,
+          "bad": 29,
+          "fp": 25,
+          "fn": 8,
+          "eligible": false,
+          "ActCost": 0.42737722048066873
+        },
+        "6": {
+          "good": 118,
+          "bad": 18,
+          "fp": 19,
+          "fn": 15,
+          "eligible": false,
+          "ActCost": 1.155367231638418
+        },
+        "7": {
+          "good": 67,
+          "bad": 2,
+          "fp": 10,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.2985074626865671
+        },
+        "8": {
+          "good": 157,
+          "bad": 90,
+          "fp": 19,
+          "fn": 66,
+          "eligible": true,
+          "ActCost": 0.9753715498938429
+        },
+        "9": {
+          "good": 332,
+          "bad": 26,
+          "fp": 85,
+          "fn": 11,
+          "eligible": false,
+          "ActCost": 0.9351251158480074
+        },
+        "10": {
+          "good": 248,
+          "bad": 23,
+          "fp": 34,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 0.6654978962131837
+        },
+        "11": {
+          "good": 198,
+          "bad": 100,
+          "fp": 33,
+          "fn": 29,
+          "eligible": true,
+          "ActCost": 0.6233333333333333
+        },
+        "12": {
+          "good": 128,
+          "bad": 21,
+          "fp": 18,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.37648809523809523
+        },
+        "13": {
+          "good": 184,
+          "bad": 2,
+          "fp": 10,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.108695652173913
+        },
+        "14": {
+          "good": 125,
+          "bad": 25,
+          "fp": 15,
+          "fn": 13,
+          "eligible": false,
+          "ActCost": 0.76
+        },
+        "15": {
+          "good": 142,
+          "bad": 18,
+          "fp": 17,
+          "fn": 15,
+          "eligible": false,
+          "ActCost": 1.0727699530516432
+        },
+        "16": {
+          "good": 326,
+          "bad": 195,
+          "fp": 43,
+          "fn": 61,
+          "eligible": true,
+          "ActCost": 0.5766241938021079
+        },
+        "17": {
+          "good": 375,
+          "bad": 11,
+          "fp": 23,
+          "fn": 10,
+          "eligible": false,
+          "ActCost": 1.0317575757575757
+        },
+        "18": {
+          "good": 41,
+          "bad": 19,
+          "fp": 9,
+          "fn": 4,
+          "eligible": false,
+          "ActCost": 0.6495507060333761
+        },
+        "19": {
+          "good": 265,
+          "bad": 39,
+          "fp": 32,
+          "fn": 23,
+          "eligible": false,
+          "ActCost": 0.831253023705854
+        },
+        "20": {
+          "good": 478,
+          "bad": 16,
+          "fp": 19,
+          "fn": 11,
+          "eligible": false,
+          "ActCost": 0.7669979079497908
+        },
+        "21": {
+          "good": 416,
+          "bad": 1,
+          "fp": 39,
+          "fn": 1,
+          "eligible": false,
+          "ActCost": 1.1875
+        },
+        "22": {
+          "good": 523,
+          "bad": 3,
+          "fp": 45,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.8387507966857871
+        },
+        "23": {
+          "good": 57,
+          "bad": 41,
+          "fp": 5,
+          "fn": 11,
+          "eligible": false,
+          "ActCost": 0.44373127941805734
+        },
+        "24": {
+          "good": 80,
+          "bad": 53,
+          "fp": 15,
+          "fn": 18,
+          "eligible": true,
+          "ActCost": 0.7146226415094339
+        },
+        "25": {
+          "good": 61,
+          "bad": 5,
+          "fp": 8,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 1.2622950819672132
+        },
+        "26": {
+          "good": 194,
+          "bad": 52,
+          "fp": 13,
+          "fn": 29,
+          "eligible": true,
+          "ActCost": 0.6917129262490087
+        },
+        "27": {
+          "good": 370,
+          "bad": 62,
+          "fp": 62,
+          "fn": 27,
+          "eligible": true,
+          "ActCost": 0.770619006102877
+        },
+        "28": {
+          "good": 402,
+          "bad": 6,
+          "fp": 36,
+          "fn": 6,
+          "eligible": false,
+          "ActCost": 1.1791044776119404
+        },
+        "29": {
+          "good": 147,
+          "bad": 2,
+          "fp": 0,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "30": {
+          "good": 463,
+          "bad": 118,
+          "fp": 91,
+          "fn": 67,
+          "eligible": true,
+          "ActCost": 0.9608851630852583
+        },
+        "31": {
+          "good": 57,
+          "bad": 13,
+          "fp": 7,
+          "fn": 6,
+          "eligible": false,
+          "ActCost": 0.7071524966261808
+        },
+        "32": {
+          "good": 92,
+          "bad": 34,
+          "fp": 12,
+          "fn": 15,
+          "eligible": false,
+          "ActCost": 0.7020460358056266
+        },
+        "33": {
+          "good": 222,
+          "bad": 4,
+          "fp": 16,
+          "fn": 3,
+          "eligible": false,
+          "ActCost": 0.8941441441441441
+        },
+        "34": {
+          "good": 78,
+          "bad": 69,
+          "fp": 13,
+          "fn": 33,
+          "eligible": true,
+          "ActCost": 0.8115942028985508
+        },
+        "35": {
+          "good": 185,
+          "bad": 2,
+          "fp": 3,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0324324324324325
+        },
+        "36": {
+          "good": 159,
+          "bad": 18,
+          "fp": 5,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 0.5628930817610063
+        },
+        "37": {
+          "good": 78,
+          "bad": 203,
+          "fp": 46,
+          "fn": 51,
+          "eligible": true,
+          "ActCost": 1.4307187065807756
+        },
+        "38": {
+          "good": 30,
+          "bad": 28,
+          "fp": 11,
+          "fn": 10,
+          "eligible": false,
+          "ActCost": 1.0904761904761904
+        }
+      },
+      "eligible_phones": 12,
+      "phone_macro_ActCost": 0.8297474123504519
+    },
+    "uniform60": {
+      "people": [
+        {
+          "speaker": "spkr14",
+          "n": 969,
+          "pauc": 0.7401006735021383,
+          "auroc": 0.9120589347126564,
+          "ap": 0.8458528844090124,
+          "conditional_fpr": 0.08414239482200647,
+          "recall": 0.5498575498575499,
+          "precision": 0.7877551020408163,
+          "flags": 245
+        },
+        {
+          "speaker": "spkr17",
+          "n": 977,
+          "pauc": 0.6645953192555978,
+          "auroc": 0.8590189695813223,
+          "ap": 0.5263549487069927,
+          "conditional_fpr": 0.14043583535108958,
+          "recall": 0.5033112582781457,
+          "precision": 0.3958333333333333,
+          "flags": 192
+        },
+        {
+          "speaker": "spkr25",
+          "n": 1014,
+          "pauc": 0.6180757216632395,
+          "auroc": 0.8316246644795705,
+          "ap": 0.1995620100856322,
+          "conditional_fpr": 0.061586638830897704,
+          "recall": 0.3392857142857143,
+          "precision": 0.24358974358974358,
+          "flags": 78
+        },
+        {
+          "speaker": "spkr29",
+          "n": 1009,
+          "pauc": 0.7861464419935527,
+          "auroc": 0.9267233886830429,
+          "ap": 0.8553203699838936,
+          "conditional_fpr": 0.06051873198847262,
+          "recall": 0.5301587301587302,
+          "precision": 0.7990430622009569,
+          "flags": 209
+        },
+        {
+          "speaker": "spkr30",
+          "n": 1002,
+          "pauc": 0.667993914057268,
+          "auroc": 0.8588617436114525,
+          "ap": 0.5207501857480505,
+          "conditional_fpr": 0.14668218859138532,
+          "recall": 0.4755244755244755,
+          "precision": 0.35051546391752575,
+          "flags": 194
+        },
+        {
+          "speaker": "spkr31",
+          "n": 1021,
+          "pauc": 0.7124389922173856,
+          "auroc": 0.9034862942108635,
+          "ap": 0.701743079271442,
+          "conditional_fpr": 0.2769423558897243,
+          "recall": 0.6547085201793722,
+          "precision": 0.3978201634877384,
+          "flags": 367
+        },
+        {
+          "speaker": "spkr32",
+          "n": 1001,
+          "pauc": 0.6960871279321901,
+          "auroc": 0.8805118601747816,
+          "ap": 0.655508680883033,
+          "conditional_fpr": 0.1136079900124844,
+          "recall": 0.445,
+          "precision": 0.49444444444444446,
+          "flags": 180
+        },
+        {
+          "speaker": "spkr52",
+          "n": 999,
+          "pauc": 0.7255704665182856,
+          "auroc": 0.8873926929262271,
+          "ap": 0.49382894249442333,
+          "conditional_fpr": 0.041065482796892344,
+          "recall": 0.41836734693877553,
+          "precision": 0.5256410256410257,
+          "flags": 78
+        },
+        {
+          "speaker": "spkr65",
+          "n": 1007,
+          "pauc": 0.6729298755299844,
+          "auroc": 0.8694964304213679,
+          "ap": 0.6609592719959221,
+          "conditional_fpr": 0.21694480102695765,
+          "recall": 0.5877192982456141,
+          "precision": 0.44224422442244227,
+          "flags": 303
+        },
+        {
+          "speaker": "spkr89",
+          "n": 1014,
+          "pauc": 0.7683218590271446,
+          "auroc": 0.9180705053819375,
+          "ap": 0.8182725055133359,
+          "conditional_fpr": 0.08445040214477212,
+          "recall": 0.5335820895522388,
+          "precision": 0.6941747572815534,
+          "flags": 206
+        }
+      ],
+      "means": {
+        "pauc": 0.7052260391696787,
+        "auroc": 0.8847245484183223,
+        "ap": 0.6278152879091736,
+        "conditional_fpr": 0.12263768214546825,
+        "recall": 0.5037514983020616,
+        "precision": 0.513106132035958,
+        "flags": 205.2
+      },
+      "phones": {
+        "0": {
+          "good": 86,
+          "bad": 30,
+          "fp": 16,
+          "fn": 11,
+          "eligible": false,
+          "ActCost": 0.7387596899224806
+        },
+        "1": {
+          "good": 78,
+          "bad": 101,
+          "fp": 8,
+          "fn": 46,
+          "eligible": true,
+          "ActCost": 0.6605737496826606
+        },
+        "2": {
+          "good": 462,
+          "bad": 439,
+          "fp": 65,
+          "fn": 248,
+          "eligible": true,
+          "ActCost": 0.8463055547338008
+        },
+        "3": {
+          "good": 150,
+          "bad": 103,
+          "fp": 21,
+          "fn": 69,
+          "eligible": true,
+          "ActCost": 0.9499029126213593
+        },
+        "4": {
+          "good": 76,
+          "bad": 12,
+          "fp": 7,
+          "fn": 4,
+          "eligible": false,
+          "ActCost": 0.5175438596491228
+        },
+        "5": {
+          "good": 330,
+          "bad": 29,
+          "fp": 31,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 0.36029258098223615
+        },
+        "6": {
+          "good": 118,
+          "bad": 18,
+          "fp": 22,
+          "fn": 13,
+          "eligible": false,
+          "ActCost": 1.0951035781544256
+        },
+        "7": {
+          "good": 67,
+          "bad": 2,
+          "fp": 6,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.1791044776119404
+        },
+        "8": {
+          "good": 157,
+          "bad": 90,
+          "fp": 29,
+          "fn": 53,
+          "eligible": true,
+          "ActCost": 0.9583156404812456
+        },
+        "9": {
+          "good": 332,
+          "bad": 26,
+          "fp": 85,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 0.8582020389249305
+        },
+        "10": {
+          "good": 248,
+          "bad": 23,
+          "fp": 44,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 0.7461430575035064
+        },
+        "11": {
+          "good": 198,
+          "bad": 100,
+          "fp": 34,
+          "fn": 32,
+          "eligible": true,
+          "ActCost": 0.6634343434343435
+        },
+        "12": {
+          "good": 128,
+          "bad": 21,
+          "fp": 14,
+          "fn": 3,
+          "eligible": false,
+          "ActCost": 0.36160714285714285
+        },
+        "13": {
+          "good": 184,
+          "bad": 2,
+          "fp": 10,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.108695652173913
+        },
+        "14": {
+          "good": 125,
+          "bad": 25,
+          "fp": 15,
+          "fn": 10,
+          "eligible": false,
+          "ActCost": 0.64
+        },
+        "15": {
+          "good": 142,
+          "bad": 18,
+          "fp": 21,
+          "fn": 16,
+          "eligible": false,
+          "ActCost": 1.1846635367762128
+        },
+        "16": {
+          "good": 326,
+          "bad": 195,
+          "fp": 61,
+          "fn": 55,
+          "eligible": true,
+          "ActCost": 0.6562844108856378
+        },
+        "17": {
+          "good": 375,
+          "bad": 11,
+          "fp": 36,
+          "fn": 9,
+          "eligible": false,
+          "ActCost": 1.0101818181818183
+        },
+        "18": {
+          "good": 41,
+          "bad": 19,
+          "fp": 9,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.5442875481386393
+        },
+        "19": {
+          "good": 265,
+          "bad": 39,
+          "fp": 34,
+          "fn": 21,
+          "eligible": false,
+          "ActCost": 0.7950653120464442
+        },
+        "20": {
+          "good": 478,
+          "bad": 16,
+          "fp": 23,
+          "fn": 12,
+          "eligible": false,
+          "ActCost": 0.8462343096234309
+        },
+        "21": {
+          "good": 416,
+          "bad": 1,
+          "fp": 36,
+          "fn": 1,
+          "eligible": false,
+          "ActCost": 1.1730769230769231
+        },
+        "22": {
+          "good": 523,
+          "bad": 3,
+          "fp": 44,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 0.8349267049075844
+        },
+        "23": {
+          "good": 57,
+          "bad": 41,
+          "fp": 9,
+          "fn": 15,
+          "eligible": false,
+          "ActCost": 0.6816431322207959
+        },
+        "24": {
+          "good": 80,
+          "bad": 53,
+          "fp": 18,
+          "fn": 18,
+          "eligible": true,
+          "ActCost": 0.789622641509434
+        },
+        "25": {
+          "good": 61,
+          "bad": 5,
+          "fp": 8,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 1.2622950819672132
+        },
+        "26": {
+          "good": 194,
+          "bad": 52,
+          "fp": 12,
+          "fn": 28,
+          "eligible": true,
+          "ActCost": 0.662172878667724
+        },
+        "27": {
+          "good": 370,
+          "bad": 62,
+          "fp": 54,
+          "fn": 31,
+          "eligible": true,
+          "ActCost": 0.7918918918918919
+        },
+        "28": {
+          "good": 402,
+          "bad": 6,
+          "fp": 34,
+          "fn": 6,
+          "eligible": false,
+          "ActCost": 1.1691542288557213
+        },
+        "29": {
+          "good": 147,
+          "bad": 2,
+          "fp": 0,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0
+        },
+        "30": {
+          "good": 463,
+          "bad": 118,
+          "fp": 53,
+          "fn": 78,
+          "eligible": true,
+          "ActCost": 0.8899586338177692
+        },
+        "31": {
+          "good": 57,
+          "bad": 13,
+          "fp": 10,
+          "fn": 5,
+          "eligible": false,
+          "ActCost": 0.7354925775978407
+        },
+        "32": {
+          "good": 92,
+          "bad": 34,
+          "fp": 12,
+          "fn": 13,
+          "eligible": false,
+          "ActCost": 0.6432225063938619
+        },
+        "33": {
+          "good": 222,
+          "bad": 4,
+          "fp": 11,
+          "fn": 3,
+          "eligible": false,
+          "ActCost": 0.8490990990990991
+        },
+        "34": {
+          "good": 78,
+          "bad": 69,
+          "fp": 12,
+          "fn": 37,
+          "eligible": true,
+          "ActCost": 0.8439241917502788
+        },
+        "35": {
+          "good": 185,
+          "bad": 2,
+          "fp": 3,
+          "fn": 2,
+          "eligible": false,
+          "ActCost": 1.0324324324324325
+        },
+        "36": {
+          "good": 159,
+          "bad": 18,
+          "fp": 4,
+          "fn": 6,
+          "eligible": false,
+          "ActCost": 0.38364779874213834
+        },
+        "37": {
+          "good": 78,
+          "bad": 203,
+          "fp": 52,
+          "fn": 67,
+          "eligible": true,
+          "ActCost": 1.663382594417077
+        },
+        "38": {
+          "good": 30,
+          "bad": 28,
+          "fp": 13,
+          "fn": 7,
+          "eligible": false,
+          "ActCost": 1.1166666666666667
+        }
+      },
+      "eligible_phones": 12,
+      "phone_macro_ActCost": 0.8646474536577685
+    }
+  },
+  "contrasts": {
+    "E1_mixedConv_minus_uniformConv": {
+      "pauc": {
+        "delta": 0.005751514813902426,
+        "ci95": [
+          0.0022889655121264263,
+          0.009284112828703948
+        ],
+        "positive_people": 8,
+        "bootstrap_p": 0.0003999200159968006,
+        "holm_p": 0.0011997600479904018
+      },
+      "conditional_fpr": {
+        "delta": -0.0005285560493604894,
+        "ci95": [
+          -0.00920521701886735,
+          0.008193818748116196
+        ],
+        "positive_people": 5,
+        "bootstrap_p": 0.9002199560087982
+      },
+      "recall": {
+        "delta": 0.01061364042073129,
+        "ci95": [
+          -0.007105210414464527,
+          0.030519052340663207
+        ],
+        "positive_people": 5,
+        "bootstrap_p": 0.27474505098980206
+      }
+    },
+    "E3a_mixedConv_minus_mixed60": {
+      "pauc": {
+        "delta": 0.011693136994814158,
+        "ci95": [
+          0.005805486584208742,
+          0.018126185529360548
+        ],
+        "positive_people": 10,
+        "bootstrap_p": 0.0003999200159968006,
+        "holm_p": 0.0011997600479904018
+      },
+      "conditional_fpr": {
+        "delta": -0.003600677096213308,
+        "ci95": [
+          -0.01602941406861193,
+          0.009407867003532662
+        ],
+        "positive_people": 3,
+        "bootstrap_p": 0.5582883423315337
+      },
+      "recall": {
+        "delta": 0.02578808739489257,
+        "ci95": [
+          0.005096804147411312,
+          0.05269147618128907
+        ],
+        "positive_people": 7,
+        "bootstrap_p": 0.006798640271945611
+      }
+    },
+    "E3b_uniformConv_minus_uniform60": {
+      "pauc": {
+        "delta": 0.010871489651112542,
+        "ci95": [
+          0.0036606300259544437,
+          0.018459839675163934
+        ],
+        "positive_people": 8,
+        "bootstrap_p": 0.0023995200959808036,
+        "holm_p": 0.0023995200959808036
+      },
+      "conditional_fpr": {
+        "delta": -0.004583620478583584,
+        "ci95": [
+          -0.017239252951971363,
+          0.006509364546890367
+        ],
+        "positive_people": 4,
+        "bootstrap_p": 0.4287142571485703
+      },
+      "recall": {
+        "delta": 0.00504305145417761,
+        "ci95": [
+          -0.028157675746049896,
+          0.0395347243900723
+        ],
+        "positive_people": 5,
+        "bootstrap_p": 0.8078384323135372
+      }
+    },
+    "secondary_mixedConv_minus_prior": {
+      "pauc": {
+        "delta": 0.0956948906129717,
+        "ci95": [
+          0.07246346181326942,
+          0.11785383133574287
+        ],
+        "positive_people": 10,
+        "bootstrap_p": 0.0003999200159968006
+      },
+      "conditional_fpr": {
+        "delta": 0.11358964899207506,
+        "ci95": [
+          0.08412299998328669,
+          0.15060677356256522
+        ],
+        "positive_people": 10,
+        "bootstrap_p": 0.0003999200159968006
+      },
+      "recall": {
+        "delta": 0.4981780450461632,
+        "ci95": [
+          0.45693931961208456,
+          0.5379949301716012
+        ],
+        "positive_people": 10,
+        "bootstrap_p": 0.0003999200159968006
+      }
+    },
+    "secondary_uniformConv_minus_prior": {
+      "pauc": {
+        "delta": 0.08994337579906928,
+        "ci95": [
+          0.0656491609705121,
+          0.11221966512446925
+        ],
+        "positive_people": 10,
+        "bootstrap_p": 0.0003999200159968006
+      },
+      "conditional_fpr": {
+        "delta": 0.11411820504143558,
+        "ci95": [
+          0.08253758917732404,
+          0.1540424937831257
+        ],
+        "positive_people": 10,
+        "bootstrap_p": 0.0003999200159968006
+      },
+      "recall": {
+        "delta": 0.4875644046254319,
+        "ci95": [
+          0.4467859763149345,
+          0.5274597954193209
+        ],
+        "positive_people": 10,
+        "bootstrap_p": 0.0003999200159968006
+      }
+    }
+  },
+  "convergence": {
+    "mixed": {
+      "median_selected_epoch": 149.0,
+      "median_stopped_epoch": 169.0,
+      "patience_stops": 23,
+      "cap200_hits": 2,
+      "selected": [
+        149,
+        154,
+        149,
+        157,
+        156,
+        34,
+        121,
+        95,
+        117,
+        49,
+        191,
+        157,
+        191,
+        177,
+        159,
+        124,
+        122,
+        134,
+        117,
+        120,
+        149,
+        155,
+        163,
+        150,
+        151
+      ],
+      "stopped": [
+        169,
+        174,
+        169,
+        177,
+        176,
+        60,
+        141,
+        115,
+        137,
+        69,
+        200,
+        177,
+        200,
+        197,
+        179,
+        144,
+        142,
+        154,
+        137,
+        140,
+        169,
+        175,
+        183,
+        170,
+        171
+      ]
+    },
+    "uniform": {
+      "median_selected_epoch": 163.0,
+      "median_stopped_epoch": 183.0,
+      "patience_stops": 14,
+      "cap200_hits": 11,
+      "selected": [
+        169,
+        163,
+        190,
+        161,
+        142,
+        89,
+        193,
+        84,
+        151,
+        61,
+        198,
+        199,
+        200,
+        200,
+        200,
+        116,
+        128,
+        88,
+        106,
+        99,
+        185,
+        198,
+        197,
+        155,
+        198
+      ],
+      "stopped": [
+        189,
+        183,
+        200,
+        181,
+        162,
+        109,
+        200,
+        104,
+        171,
+        81,
+        200,
+        200,
+        200,
+        200,
+        200,
+        136,
+        148,
+        108,
+        126,
+        119,
+        200,
+        200,
+        200,
+        175,
+        200
+      ]
+    }
+  },
+  "gate_B_baseline_by_locked_rule": "mixed",
+  "reproduction_vs_v3": {
+    "fits_compared": 50,
+    "max_abs_calibration_pauc_difference_epochs1_60": 0.0,
+    "cap60_selected_epoch_mismatches": []
+  },
+  "known_held_positions": 10013,
+  "unknown_positions": 453,
+  "neural_fits": 50,
+  "fresh_validation_people": 0,
+  "new_labels": 0,
+  "limitations": [
+    "Retrospective10speaker development reused from v2/v3; no fresh confirmation",
+    "Calibration speakers select epochs, stopping and thresholds",
+    "Fixed-model speaker bootstrap excludes training/calibration uncertainty",
+    "Empirical ActCost thresholds, not CRC"
+  ]
+}
