@@ -38,6 +38,8 @@ The paths in the modules assume the original repository layout. Raw data goes un
    - `python -m vpa.sslmd_l2arctic_phone_analysis_v1`
    - `python -m vpa.sslmd_l2arctic_phone_posthoc_v1`
    - `python -m vpa.sslmd_l2arctic_sensitivity_v1`
+   - `python -m vpa.sslmd_l2arctic_phone_normalization_v1` (post-hoc, transductive rank map)
+   - `python -m vpa.sslmd_l2arctic_phone_normalization_v2` (post-hoc, fixed EpaDB rank map; needs the EpaDB feature caches)
 
 Each analysis first checks that it reproduces the locked thresholds and means, and stops if it does not.
 
